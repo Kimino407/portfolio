@@ -1,0 +1,26 @@
+/* Custom Utility & Fonts */
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-garamond {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Background Pattern Dot Elegan ala Canvas Royal */
+.hero-pattern {
+  background-image: radial-gradient(#C5A059 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+  background-color: #FDFBF7;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Side Quests: kartu hobi, 2 kolom di laptop, baris terakhir rata tengah */
+.sq-grid > div { width: 100%; }
+@media (min-width: 768px) {
+  .sq-grid > div { width: calc(50% - 0.75rem); }
+}

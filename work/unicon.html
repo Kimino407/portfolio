@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniCon — Richie Vic Raymond</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="RR">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#0A0E17">
+</head>
+<body class="bg-[#FDFBF7] text-[#1A1D20] antialiased selection:bg-[#C5A059] selection:text-white">
+    <div class="bg-[#0A0E17] text-[#C5A059] text-[10px] md:text-xs tracking-[0.25em] py-2 text-center uppercase font-semibold border-b border-[#C5A059]/30">
+        SOFTWARE ENGINEERING • SYSTEM ARCHITECTURE • CRAFTSMANSHIP • BINUS UNIVERSITY
+    </div>
+
+    <header class="sticky top-0 z-50 bg-[#FDFBF7]/90 backdrop-blur-md border-b border-[#1A1D20]/10">
+    <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+           
+            <a href="../index.html" class="flex items-center gap-3 group">
+                <div>
+                    <span class="font-cinzel font-bold tracking-widest text-3xl md:text-4xl text-[#0A0E17] block leading-none">Richie</span>
+                    <span class="text-[10px] tracking-wider text-[#C5A059] uppercase font-medium block mt-1">Software Engineer</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center gap-8 text-xs font-semibold tracking-widest uppercase text-slate-600">
+                <a href="../index.html"     class="hover:text-[#C5A059] transition">Home</a>
+                <a href="../about.html"     class="hover:text-[#C5A059] transition">About</a>
+                <a href="../projects.html"  class="hover:text-[#C5A059] transition">Projects</a>
+                <a href="#contact"          class="hover:text-[#C5A059] transition">Contact</a>
+            </nav>
+
+        <a href="../contact.html" class="hidden md:inline-block bg-[#0A0E17] text-[#C5A059] border border-[#C5A059] font-cinzel font-bold text-xs tracking-widest px-5 py-2.5 uppercase hover:bg-[#C5A059] hover:text-[#0A0E17] transition-all duration-300 shadow-sm">
+            Let's Connect <img src="../Images/3d-icon/latte.png" alt="Coffee" class="w-8 h-8 inline-block ml-2">
+        </a>
+
+        <button id="menu-btn" aria-label="Buka menu"
+                class="md:hidden text-2xl text-[#0A0E17] boarder boarder-[#C5A059] px-3 py-1">
+            ☰
+        </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden border-t border-[#1A1D20]/10 bg-[#FDFBF7]">
+            <nav class="flex flex-col gap-5 px-6 py-6 text-xs font-semibold tracking-widest uppercase text-slate-700">
+                <a href="../index.html">Home</a>
+                <a href="../about.html">About</a>
+                <a href="../projects.html">Projects</a>
+                <a href="../contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Isi folder UniCon -->
+    <main class="max-w-6xl mx-auto px-6 py-16">
+
+    <a href="../projects.html" class="text-xs font-semibold tracking-widest uppercase text-[#8C6D2D] hover:text-[#C5A059] transition">← Semua Project</a>
+
+    <!-- Judul + kotak info -->
+    <section class="grid grid-cols-1 md:grid-cols-12 gap-10 mt-8 pb-12 border-b border-[#1A1D20]/10">
+      <div class="md:col-span-7">
+        <p class="text-[10px] tracking-widest uppercase text-[#8C6D2D] font-semibold">Venture Creations · Web App</p>
+        <div class="flex items-center gap-4 mt-3">
+          <img src="../Images/unicon/logo-unicon.png" alt="Logo UniCon" class="w-14 h-14 object-contain">
+          <h1 class="font-cinzel text-4xl md:text-5xl font-extrabold text-[#0A0E17] leading-tight">UniCon</h1>
+        </div>
+        <div class="w-12 h-[2px] bg-[#C5A059] my-6"></div>
+        <p class="text-slate-700 text-lg leading-relaxed">
+          Website University Connect untuk mencari teman baru berdasarkan hobi, jurusan, dan komunitas, lengkap dengan rekomendasi event kampus.
+        </p>
+      </div>
+
+      <aside class="md:col-span-5 bg-white border border-[#1A1D20]/10 p-8 space-y-5 self-start">
+        <div>
+          <p class="text-[10px] uppercase tracking-widest text-[#8C6D2D] font-semibold">Waktu</p>
+          <p class="text-sm text-slate-700">Oktober 2026</p>
+        </div>
+        <div>
+          <p class="text-[10px] uppercase tracking-widest text-[#8C6D2D] font-semibold">Peran</p>
+          <p class="text-sm text-slate-700">Mempelajari cara menyimpan data profile dan chat pribadi dengan aman di supabase, dapat keamanan dan privasi bagi mahasiswa kampus.</p>
+        </div>
+        <div>
+          <p class="text-[10px] uppercase tracking-widest text-[#8C6D2D] font-semibold">Stack</p>
+          <div class="flex flex-wrap gap-2 mt-2">
+            <span class="text-xs px-3 py-1 border border-[#C5A059]/40 bg-[#C5A059]/10">React</span>
+            <span class="text-xs px-3 py-1 border border-[#C5A059]/40 bg-[#C5A059]/10">TypeScript</span>
+            <span class="text-xs px-3 py-1 border border-[#C5A059]/40 bg-[#C5A059]/10">Vite</span>
+            <span class="text-xs px-3 py-1 border border-[#C5A059]/40 bg-[#C5A059]/10">Supabase</span>
+            <span class="text-xs px-3 py-1 border border-[#C5A059]/40 bg-[#C5A059]/10">Tailwind CSS</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-4 pt-2">
+          <a href="https://unicon-website.netlify.app/" target="_blank" rel="noopener" class="text-xs font-semibold tracking-widest uppercase text-slate-700 hover:text-[#C5A059] transition">Buka Website →</a>
+          <a href="https://github.com/Kimino407/unicon-code" target="_blank" rel="noopener" class="text-xs font-semibold tracking-widest uppercase text-slate-700 hover:text-[#C5A059] transition">Lihat Code →</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Overview -->
+    <section class="py-12 border-b border-[#1A1D20]/10 max-w-3xl">
+      <h2 class="font-cinzel text-2xl font-bold text-[#0A0E17]">Overview</h2>
+      <div class="w-10 h-[2px] bg-[#C5A059] mt-3 mb-6"></div>
+      <p class="text-slate-700 leading-relaxed">
+        UniCon (University Connect) adalah prototipe website untuk membantu mahasiswa menemukan teman baru yang punya hobi dan minat yang sama. Banyak mahasiswa, terutama mahasiswa baru, kesulitan mencari teman di luar kelas, sementara UKM dan komunitas kampus sering kurang terlihat oleh mereka yang belum tahu harus mulai dari mana. UniCon dibuat untuk menjembatani hal itu: mahasiswa dapat membuat profil, menampilkan minatnya, dan terhubung dengan orang atau komunitas yang cocok.
+      </p>
+      <p class="text-slate-700 leading-relaxed mt-4">
+        Pengguna utamanya adalah mahasiswa, dengan UKM, komunitas, brand, dan pihak kampus sebagai pengguna pendukung. Proyek ini dikerjakan oleh Kelompok 4 dan mencakup perancangan prototipe di Figma, pengumpulan masukan pengguna lewat Google Form, laporan pengujian prototipe (customer discovery), serta Business Model Canvas. Saya berperan dalam perancangan dan validasi prototipe bersama tim.
+      </p>
+    </section>
+
+    <!-- Fitur -->
+    <section class="py-12 border-b border-[#1A1D20]/10">
+      <h2 class="font-cinzel text-2xl font-bold text-[#0A0E17]">Fitur Utama</h2>
+      <div class="w-10 h-[2px] bg-[#C5A059] mt-3 mb-6"></div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white border border-[#1A1D20]/10 p-6">
+          <h3 class="font-cinzel font-bold text-[#0A0E17]">Akun &amp; Login</h3>
+          <p class="text-sm text-slate-600 mt-2">Daftar, login, dan reset password lewat email.</p>
+        </div>
+        <div class="bg-white border border-[#1A1D20]/10 p-6">
+          <h3 class="font-cinzel font-bold text-[#0A0E17]">Profil &amp; Pencarian Teman</h3>
+          <p class="text-sm text-slate-600 mt-2">Cari teman berdasarkan hobi, jurusan, dan komunitas.</p>
+        </div>
+        <div class="bg-white border border-[#1A1D20]/10 p-6">
+          <h3 class="font-cinzel font-bold text-[#0A0E17]">Chat</h3>
+          <p class="text-sm text-slate-600 mt-2">Percakapan antar pengguna, tersimpan di Supabase.</p>
+        </div>
+        <div class="bg-white border border-[#1A1D20]/10 p-6">
+          <h3 class="font-cinzel font-bold text-[#0A0E17]">Rekomendasi</h3>
+          <p class="text-sm text-slate-600 mt-2">Event kampus dan komunitas yang sesuai minat.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tampilan (foto) -->
+    <section class="py-12 border-b border-[#1A1D20]/10">
+      <h2 class="font-cinzel text-2xl font-bold text-[#0A0E17]">Tampilan</h2>
+      <div class="w-10 h-[2px] bg-[#C5A059] mt-3 mb-6"></div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <figure>
+            <img src="../Images/unicon/home-unicon.png" alt="Halaman utama UniCon" data-zoom
+                class="cursor-zoom-in w-full aspect-[16/10] object-cover object-top border border-[#1A1D20]/10 brightness-90 hover:brightness-100 transition duration-300">
+            <figcaption class="text-xs text-slate-500 mt-2">Halaman utama</figcaption>
+        </figure>
+        <figure>
+            <img src="../Images/unicon/temukan-unicon.png" alt="Halaman Temukan UniCon" data-zoom
+                class="cursor-zoom-in w-full aspect-[16/10] object-cover object-top border border-[#1A1D20]/10 brightness-90 hover:brightness-100 transition duration-300">
+            <figcaption class="text-xs text-slate-500 mt-2">Temukan teman</figcaption>
+        </figure>
+        <!-- GANTI: tambah figure lain, misalnya ../Images/unicon/logo-unicon.png/profil.png dan ../Images/unicon/logo-unicon.png/chat.png -->
+      </div>
+    </section>
+
+    <!-- Video -->
+    <section class="py-12 border-b border-[#1A1D20]/10 max-w-3xl">
+      <h2 class="font-cinzel text-2xl font-bold text-[#0A0E17]">Demo</h2>
+      <div class="w-10 h-[2px] bg-[#C5A059] mt-3 mb-6"></div>
+        <div class="aspect-video w-full border border-[#1A1D20]/10 bg-black">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/xYk4gTN8btI?rel=0"
+                title="Demo UniCon" loading="lazy" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Hasil & pembelajaran -->
+    <section class="py-12 max-w-3xl">
+      <h2 class="font-cinzel text-2xl font-bold text-[#0A0E17]">Hasil &amp; Pembelajaran</h2>
+      <div class="w-10 h-[2px] bg-[#C5A059] mt-3 mb-6"></div>
+      <ul class="list-disc pl-5 space-y-2 text-slate-700 leading-relaxed">
+        <li>8 orang mencoba UniCon di kampus. Fitur yang dibuat: Chat, Event, Komunitas, Match, Persentase Kecocokan, dan Profil.</li>
+        <li>Kami mempelajari bagaimana cara alur login, reset password, dan RLS di Supabase.</li>
+        <li>Kami menghadapi beberapa tantangan teknis, seperti optimasi kinerja database dan penanganan error yang muncul selama pengembangan.</li>
+      </ul>
+    </section>
+
+    </main>
+
+
+    <!-- Footer Contact -->
+  <footer id="contact" class="bg-[#0A0E17] text-white pt-16 pb-8 border-t-2 border-[#C5A059]">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+      <!-- Nama, bidang, daerah -->
+      <div>
+        <p class="font-cinzel text-2xl font-bold text-[#FDFBF7]">Richie Raymond</p>
+        <p class="text-sm text-slate-400 mt-2">Software Engineer · Backend &amp; Web Development</p>
+        <p class="text-sm text-slate-500 mt-1">Tangerang, Indonesia</p> <!-- GANTI dengan daerahmu -->
+      </div>
+
+      <!-- Link halaman -->
+      <div>
+        <p class="text-[10px] tracking-widest uppercase text-[#C5A059] font-semibold mb-3">Pages</p>
+        <ul class="space-y-2 text-sm text-slate-300">
+          <li><a href="../index.html" class="hover:text-[#C5A059] transition">Home</a></li>
+          <li><a href="../about.html" class="hover:text-[#C5A059] transition">About</a></li>
+          <li><a href="../projects.html" class="hover:text-[#C5A059] transition">Projects</a></li>
+        </ul>
+      </div>
+
+      <!-- Kontak + ikon -->
+      <div>
+        <p class="text-[10px] tracking-widest uppercase text-[#C5A059] font-semibold mb-3">Say Hi</p>
+        <a href="mailto:richieraymond407@gmail.com" class="text-sm text-slate-300 hover:text-[#C5A059] transition">richieraymond407@gmail.com</a>
+
+        <div class="flex gap-3 mt-4">
+          <!-- GitHub -->
+          <a href="https://github.com/Kimino407" target="_blank" rel="noopener" aria-label="GitHub"
+             class="w-9 h-9 border border-[#C5A059]/50 flex items-center justify-center text-slate-300 hover:bg-[#C5A059] hover:text-[#0A0E17] transition">
+            <svg viewBox="0 0 24 24" class="w-4 h-4" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.34.95.1-.74.4-1.24.72-1.53-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/richie-vic-raymond-programming" target="_blank" rel="noopener" aria-label="LinkedIn"
+             class="w-9 h-9 border border-[#C5A059]/50 flex items-center justify-center text-slate-300 hover:bg-[#C5A059] hover:text-[#0A0E17] transition">
+            <svg viewBox="0 0 24 24" class="w-4 h-4" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+          </a>
+          <!-- Email -->
+          <a href="mailto:richieraymond407@gmail.com" aria-label="Email"
+             class="w-9 h-9 border border-[#C5A059]/50 flex items-center justify-center text-slate-300 hover:bg-[#C5A059] hover:text-[#0A0E17] transition">
+            <svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg>
+          </a>
+          <!-- WhatsApp -->
+          <a href="https://wa.me/6287778086087" target="_blank" rel="noopener" aria-label="WhatsApp"
+             class="w-9 h-9 border border-[#C5A059]/50 flex items-center justify-center text-slate-300 hover:bg-[#C5A059] hover:text-[#0A0E17] transition">
+            <svg viewBox="0 0 24 24" class="w-4 h-4" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-xs text-slate-500 pt-8 mt-12 border-t border-slate-800">
+      © 2026 Richie Vic Raymond. Crafted with elegance &amp; passion.
+    </p>
+  </div>
+</footer>
+    <!-- Lightbox -->
+    <div id="lightbox" class="hidden fixed inset-0 z-[100] bg-[#0A0E17]/95 flex flex-col">
+        <div class="flex items-center justify-between gap-4 px-4 py-3">
+        <p id="lightbox-caption" class="text-sm text-slate-300 truncate"></p>
+        <div class="flex gap-2 shrink-0">
+            <button id="zoom-out" aria-label="Perkecil"
+                    class="w-10 h-10 border border-[#C5A059] text-[#C5A059] text-xl leading-none hover:bg-[#C5A059] hover:text-[#0A0E17] transition">−</button>
+            <button id="zoom-in" aria-label="Perbesar"
+                    class="w-10 h-10 border border-[#C5A059] text-[#C5A059] text-xl leading-none hover:bg-[#C5A059] hover:text-[#0A0E17] transition">+</button>
+            <button id="zoom-reset" aria-label="Reset zoom"
+                    class="h-10 px-3 border border-[#C5A059] text-[#C5A059] text-xs tracking-widest uppercase hover:bg-[#C5A059] hover:text-[#0A0E17] transition">Reset</button>
+            <button id="lightbox-close" aria-label="Tutup"
+                    class="w-10 h-10 border border-[#C5A059] text-[#C5A059] text-2xl leading-none hover:bg-[#C5A059] hover:text-[#0A0E17] transition">×</button>
+        </div>
+        </div>
+
+        <div id="lightbox-stage" class="flex-1 min-h-0 overflow-hidden flex items-center justify-center touch-none select-none">
+        <img id="lightbox-img" src="" alt="" draggable="false"
+            class="max-w-full max-h-[calc(100dvh-5rem)] object-contain bg-white">
+        </div>
+    </div>
+
+    <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+
+    // Buka/tutup menu saat tombol ☰ diklik
+    btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+
+    // Tutup menu otomatis setelah salah satu link diklik
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => menu.classList.add('hidden'));
+    });
+
+    </script>
+
+    <script>
+    const lightbox = document.getElementById('lightbox');
+    const stage = document.getElementById('lightbox-stage');
+    const lbImg = document.getElementById('lightbox-img');
+    const lbCaption = document.getElementById('lightbox-caption');
+
+    let scale = 1, tx = 0, ty = 0;
+    const MAX_SCALE = 6;
+
+    // Terapkan zoom dan geser, dengan batas supaya foto tidak hilang dari layar
+    function apply() {
+      scale = Math.min(Math.max(scale, 1), MAX_SCALE);
+      const maxX = Math.max(0, (lbImg.offsetWidth * scale - stage.clientWidth) / 2);
+      const maxY = Math.max(0, (lbImg.offsetHeight * scale - stage.clientHeight) / 2);
+      tx = Math.min(Math.max(tx, -maxX), maxX);
+      ty = Math.min(Math.max(ty, -maxY), maxY);
+      lbImg.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
+      stage.style.cursor = scale > 1 ? 'grab' : 'default';
+    }
+
+    function resetZoom() { scale = 1; tx = 0; ty = 0; apply(); }
+
+    function openLightbox(img) {
+      lbImg.src = img.src;
+      lbImg.alt = img.alt;
+      const cap = img.closest('figure')?.querySelector('figcaption');
+      lbCaption.textContent = cap ? cap.textContent : img.alt;
+      resetZoom();
+      lightbox.classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeLightbox() {
+      lightbox.classList.add('hidden');
+      lbImg.src = '';
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    document.querySelectorAll('img[data-zoom]').forEach(img => {
+      img.addEventListener('click', () => openLightbox(img));
+    });
+
+    // Tombol
+    document.getElementById('zoom-in').addEventListener('click', () => { scale *= 1.5; apply(); });
+    document.getElementById('zoom-out').addEventListener('click', () => { scale /= 1.5; apply(); });
+    document.getElementById('zoom-reset').addEventListener('click', resetZoom);
+    document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+    // Mouse: scroll untuk zoom, klik dua kali untuk zoom cepat
+    stage.addEventListener('wheel', e => {
+      e.preventDefault();
+      scale *= e.deltaY < 0 ? 1.15 : 1 / 1.15;
+      apply();
+    }, { passive: false });
+
+    lbImg.addEventListener('dblclick', () => {
+      scale = scale > 1 ? 1 : 2.5; tx = 0; ty = 0; apply();
+    });
+
+    // Sentuh dan mouse: geser dengan satu jari, cubit dengan dua jari
+    const pointers = new Map();
+    let startDist = 0, startScale = 1, downOnStage = false;
+
+    stage.addEventListener('pointerdown', e => {
+      stage.setPointerCapture(e.pointerId);
+      downOnStage = (e.target === stage);
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pointers.size === 2) {
+        const [a, b] = [...pointers.values()];
+        startDist = Math.hypot(a.x - b.x, a.y - b.y);
+        startScale = scale;
+      }
+    });
+
+    stage.addEventListener('pointermove', e => {
+      if (!pointers.has(e.pointerId)) return;
+      const prev = pointers.get(e.pointerId);
+      const cur = { x: e.clientX, y: e.clientY };
+      if (pointers.size === 1 && scale > 1) {
+        tx += cur.x - prev.x;
+        ty += cur.y - prev.y;
+      }
+      pointers.set(e.pointerId, cur);
+      if (pointers.size === 2 && startDist) {
+        const [a, b] = [...pointers.values()];
+        scale = startScale * Math.hypot(a.x - b.x, a.y - b.y) / startDist;
+      }
+      apply();
+    });
+
+    function endPointer(e) { pointers.delete(e.pointerId); startDist = 0; }
+    stage.addEventListener('pointerup', endPointer);
+    stage.addEventListener('pointercancel', endPointer);
+
+    // Klik area gelap menutup lightbox, tapi hanya saat tidak sedang di-zoom
+    stage.addEventListener('click', e => {
+      if (downOnStage && e.target === stage && scale === 1) closeLightbox();
+    });
+
+    window.addEventListener('resize', apply);
+    </script>
+
+</body>
+</html>
