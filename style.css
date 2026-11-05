@@ -24,3 +24,15 @@ html {
 @media (min-width: 768px) {
   .sq-grid > div { width: calc(50% - 0.75rem); }
 }
+
+/* Skills: satu chip = <span class="skill-chip">Nama</span> */
+.skill-chip {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.24rem 0.75rem;
+  border: 1px solid rgba(197, 160, 89, 0.4);
+  background: rgba(187, 160, 89, 0.1);
+  color: #0A0E17;
+  transition: background-color 0.2s;
+}
+.skill-chip:hover { background: #C5A059; }
